@@ -107,3 +107,5 @@ def update_figure(n3d, ninfected, nrisk, S0, I0, beta, gamma, nu, rho, sigma, la
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
+
+server = app.server  # <-- додаємо це
